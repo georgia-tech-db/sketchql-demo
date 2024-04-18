@@ -1,0 +1,2 @@
+[32m@tldraw/core-example-simple:build[0m: cache hit, replaying output [2mce79158b0ff9fc94[0m
+[32m@tldraw/core-example-simple:build: [0m$ tsc && vite build

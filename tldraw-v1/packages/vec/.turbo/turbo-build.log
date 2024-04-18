@@ -1,0 +1,16 @@
+[32m@tldraw/vec:build[0m: cache hit, replaying output [2m8d54f74ce9aae3bb[0m
+[32m@tldraw/vec:build: [0m$ yarn lfg
+[32m@tldraw/vec:build: [0m$ /nethome/dshah371/video-query-interface/tldraw-v1/node_modules/.bin/lfg
+[32m@tldraw/vec:build: [0m(node:155472) UnhandledPromiseRejectionWarning: TypeError: import_fs2.default.rmSync is not a function
+[32m@tldraw/vec:build: [0m    at /nethome/dshah371/video-query-interface/tldraw-v1/node_modules/@tldraw/lfg/dist/cli.js:362:30
+[32m@tldraw/vec:build: [0m    at Generator.next (<anonymous>)
+[32m@tldraw/vec:build: [0m    at Promise (/nethome/dshah371/video-query-interface/tldraw-v1/node_modules/@tldraw/lfg/dist/cli.js:51:61)
+[32m@tldraw/vec:build: [0m    at new Promise (<anonymous>)
+[32m@tldraw/vec:build: [0m    at __async (/nethome/dshah371/video-query-interface/tldraw-v1/node_modules/@tldraw/lfg/dist/cli.js:35:10)
+[32m@tldraw/vec:build: [0m    at lfg (/nethome/dshah371/video-query-interface/tldraw-v1/node_modules/@tldraw/lfg/dist/cli.js:290:10)
+[32m@tldraw/vec:build: [0m    at Object.<anonymous> (/nethome/dshah371/video-query-interface/tldraw-v1/node_modules/@tldraw/lfg/dist/cli.js:402:1)
+[32m@tldraw/vec:build: [0m    at Module._compile (internal/modules/cjs/loader.js:778:30)
+[32m@tldraw/vec:build: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+[32m@tldraw/vec:build: [0m    at Module.load (internal/modules/cjs/loader.js:653:32)
+[32m@tldraw/vec:build: [0m(node:155472) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+[32m@tldraw/vec:build: [0m(node:155472) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.

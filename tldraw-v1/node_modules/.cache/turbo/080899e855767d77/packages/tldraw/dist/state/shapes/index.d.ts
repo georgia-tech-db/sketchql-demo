@@ -1,0 +1,36 @@
+import type { TDShapeUtil } from '~state/shapes/TDShapeUtil';
+import { TDShape } from '~types';
+import { ArrowUtil } from '../../../src/state/shapes/ArrowUtil';
+import { DrawUtil } from '../../../src/state/shapes/DrawUtil';
+import { EllipseUtil } from '../../../src/state/shapes/EllipseUtil';
+import { GroupUtil } from '../../../src/state/shapes/GroupUtil';
+import { ImageUtil } from '../../../src/state/shapes/ImageUtil';
+import { RectangleUtil } from '../../../src/state/shapes/RectangleUtil';
+import { StickyUtil } from '../../../src/state/shapes/StickyUtil';
+import { TextUtil } from '../../../src/state/shapes/TextUtil';
+import { TriangleUtil } from '../../../src/state/shapes/TriangleUtil';
+import { VideoUtil } from '../../../src/state/shapes/VideoUtil';
+export declare const Rectangle: RectangleUtil;
+export declare const Triangle: TriangleUtil;
+export declare const Ellipse: EllipseUtil;
+export declare const Draw: DrawUtil;
+export declare const Arrow: ArrowUtil;
+export declare const Text: TextUtil;
+export declare const Group: GroupUtil;
+export declare const Sticky: StickyUtil;
+export declare const Image: ImageUtil;
+export declare const Video: VideoUtil;
+export declare const shapeUtils: {
+    rectangle: RectangleUtil;
+    triangle: TriangleUtil;
+    ellipse: EllipseUtil;
+    draw: DrawUtil;
+    arrow: ArrowUtil;
+    text: TextUtil;
+    group: GroupUtil;
+    sticky: StickyUtil;
+    image: ImageUtil;
+    video: VideoUtil;
+};
+export declare const getShapeUtil: <T extends TDShape>(shape: T | T["type"]) => TDShapeUtil<T, any>;
+//# sourceMappingURL=index.d.ts.map
