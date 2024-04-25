@@ -1,4 +1,4 @@
-# sketchql-demo
+# SketchQL Demonstration
 
 ## Description
 
