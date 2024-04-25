@@ -6,6 +6,3 @@ Please download the traffic dataset from https://www.dropbox.com/scl/fi/qormqlzu
 
 ### Download model checkpoint
 Download from https://www.dropbox.com/scl/fi/5jnqj57idzhpm68sjyfb8/model_cp.pt?rlkey=sbz0ix15ofbz0x12d6714v5wu&dl=0 and put it in the data/model_checkpoint folder
-
-### Run pipepline
-Run the script pipeline.py
