@@ -3,7 +3,7 @@
 ## Description
 
 
-
+## How to Run
 ### Terminal window 1:
 
 1. cd sketchql-backend
