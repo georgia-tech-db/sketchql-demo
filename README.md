@@ -28,7 +28,10 @@ python3 server.py
 1. install yarn\
 npm install -g yarn
 
-2. Run code\
+2. install plotly\
+pip install plotly
+
+3. Run code\
 cd tldraw-v1\
 yarn install\
 yarn start:core\
