@@ -37,7 +37,7 @@ open localhost://5422 in your browser
 npm install -g yarn
 
 2. Clone tldraw-v1\
-https://github.com/tldraw/tldraw-v1.git\
+https://github.com/tldraw/tldraw-v1.git
 
 3. Replace tldraw-1 core-example-advanced folder with the folder from this github repo\
    
