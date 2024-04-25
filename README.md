@@ -32,7 +32,7 @@ yarn install\
 yarn start:core\
 open localhost://5422 in your browser
 
-Alternative to Running Code 
+**Alternative to Running Code**
 1. install yarn\
 npm install -g yarn
 
