@@ -1,9 +1,0 @@
-[34m@tldraw/core:build[0m: cache hit, replaying output [2me0bcf20fd3a72002[0m
-[34m@tldraw/core:build: [0m$ yarn lfg
-[34m@tldraw/core:build: [0m$ /Users/dristishah/Documents/sketchql-interface/tldraw-v1/node_modules/.bin/lfg
-[34m@tldraw/core:build: [0m‣ @tldraw/core: Building packages.
-[34m@tldraw/core:build: [0m• @tldraw/core: Built cjs package. (313.5kb / 19.2kb gzipped)
-[34m@tldraw/core:build: [0m• @tldraw/core: Built esm package. (312.1kb / 19.0kb gzipped)
-[34m@tldraw/core:build: [0m• @tldraw/core: Built types.
-[34m@tldraw/core:build: [0m• @tldraw/core: Resolved paths.
-[34m@tldraw/core:build: [0m✔ @tldraw/core: Build complete.

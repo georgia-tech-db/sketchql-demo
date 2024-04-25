@@ -1,8 +1,0 @@
-[32m@tldraw/curve:build[0m: cache hit, replaying output [2mf4db7a8d30262987[0m
-[32m@tldraw/curve:build: [0m$ yarn lfg
-[32m@tldraw/curve:build: [0m$ /Users/dristishah/Documents/sketchql-interface/tldraw-v1/node_modules/.bin/lfg
-[32m@tldraw/curve:build: [0m‣ @tldraw/curve: Building packages.
-[32m@tldraw/curve:build: [0m• @tldraw/curve: Built esm package. (18.1kb / 1.3kb gzipped)
-[32m@tldraw/curve:build: [0m• @tldraw/curve: Built cjs package. (18.7kb / 1.5kb gzipped)
-[32m@tldraw/curve:build: [0m• @tldraw/curve: Built types.
-[32m@tldraw/curve:build: [0m✔ @tldraw/curve: Build complete.

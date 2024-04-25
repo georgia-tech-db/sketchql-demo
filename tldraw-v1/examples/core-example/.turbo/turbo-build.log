@@ -1,9 +1,0 @@
-[36m@tldraw/core-example-simple:build[0m: cache hit, replaying output [2m8881de5ec46f6e77[0m
-[36m@tldraw/core-example-simple:build: [0m$ tsc && vite build
-[36m@tldraw/core-example-simple:build: [0mvite v3.0.5 building for production...
-[36m@tldraw/core-example-simple:build: [0mtransforming...
-[36m@tldraw/core-example-simple:build: [0m✓ 49 modules transformed.
-[36m@tldraw/core-example-simple:build: [0mrendering chunks...
-[36m@tldraw/core-example-simple:build: [0mdist/index.html                  0.44 KiB
-[36m@tldraw/core-example-simple:build: [0mdist/assets/index.c060e740.css   0.16 KiB / gzip: 0.14 KiB
-[36m@tldraw/core-example-simple:build: [0mdist/assets/index.dc0041d0.js    238.51 KiB / gzip: 74.23 KiB

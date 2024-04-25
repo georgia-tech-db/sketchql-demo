@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: New tldraw
+    url: https://github.com/tldraw/tldraw/issues/new
+    about: Is your issue for the new tldraw? Report it on the new repo instead.
