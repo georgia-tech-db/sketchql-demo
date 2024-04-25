@@ -3,7 +3,7 @@
 
 ### Terminal window 1:
 
-1. cd sketchql-backend\
+1. cd sketchql-backend
 
 2. Install requirements\
 pip install -r requirements.txt
