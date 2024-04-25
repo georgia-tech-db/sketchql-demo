@@ -1,2 +1,91 @@
-[36m@tldraw/core-example-advanced:build[0m: cache hit, replaying output [2ma91de92c699d29ac[0m
-[36m@tldraw/core-example-advanced:build: [0m$ tsc && vite build
+[35m@tldraw/core-example-advanced:build[0m: cache hit, replaying output [2m99f406557be5c73b[0m
+[35m@tldraw/core-example-advanced:build: [0m$ tsc && vite build
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(26,22): error TS7016: Could not find a declaration file for module 'plotly'. '/Users/dristishah/Documents/sketchql-interface/tldraw-v1/node_modules/plotly/index.js' implicitly has an 'any' type.
+[35m@tldraw/core-example-advanced:build: [0m  Try `npm i --save-dev @types/plotly` if it exists or add a new declaration (.d.ts) file containing `declare module 'plotly';`
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(27,30): error TS7016: Could not find a declaration file for module 'uuid'. '/Users/dristishah/Documents/sketchql-interface/tldraw-v1/node_modules/uuid/index.js' implicitly has an 'any' type.
+[35m@tldraw/core-example-advanced:build: [0m  Try `npm i --save-dev @types/uuid` if it exists or add a new declaration (.d.ts) file containing `declare module 'uuid';`
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(61,5): error TS2322: Type 'Timeout' is not assignable to type 'number'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(344,35): error TS7006: Parameter 'data' implicitly has an 'any' type.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(354,7): error TS2531: Object is possibly 'null'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(355,7): error TS2531: Object is possibly 'null'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(362,43): error TS7006: Parameter 'point' implicitly has an 'any' type.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(363,43): error TS7006: Parameter 'point' implicitly has an 'any' type.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(373,11): error TS2531: Object is possibly 'null'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(374,11): error TS2531: Object is possibly 'null'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(375,11): error TS2531: Object is possibly 'null'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(376,11): error TS2531: Object is possibly 'null'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(377,11): error TS2531: Object is possibly 'null'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(379,16): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(380,13): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(382,16): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(383,13): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{}'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(393,9): error TS2531: Object is possibly 'null'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(394,9): error TS2531: Object is possibly 'null'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(395,9): error TS2531: Object is possibly 'null'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(396,9): error TS2531: Object is possibly 'null'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(396,39): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.
+[35m@tldraw/core-example-advanced:build: [0m  No index signature with a parameter of type 'string' was found on type '{}'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(401,41): error TS2345: Argument of type 'Blob | null' is not assignable to parameter of type 'Blob | MediaSource'.
+[35m@tldraw/core-example-advanced:build: [0m  Type 'null' is not assignable to type 'Blob | MediaSource'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(539,19): error TS2345: Argument of type '(prevPoints: never[]) => any[]' is not assignable to parameter of type 'SetStateAction<never[]>'.
+[35m@tldraw/core-example-advanced:build: [0m  Type '(prevPoints: never[]) => any[]' is not assignable to type '(prevState: never[]) => never[]'.
+[35m@tldraw/core-example-advanced:build: [0m    Type 'any[]' is not assignable to type 'never[]'.
+[35m@tldraw/core-example-advanced:build: [0m      Type 'any' is not assignable to type 'never'.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(539,54): error TS2488: Type 'Element[] | null' must have a '[Symbol.iterator]()' method that returns an iterator.
+[35m@tldraw/core-example-advanced:build: [0msrc/App.tsx(545,10): error TS2322: Type '{ children: void[]; shapeUtils: { box: BoxUtil; arrow: ArrowUtil; pencil: PencilUtil; point: PointUtil; }; page: TLPage<Shape, CustomBinding>; ... 27 more ...; hideBindingHandles: true; }' is not assignable to type 'IntrinsicAttributes & Partial<TLCallbacks<TLShape>> & { shapeUtils: { [x: string]: TLShapeUtil<any, any, any>; }; ... 25 more ...; onBoundsChange?: ((bounds: TLBounds) => void) | undefined; }'.
+[35m@tldraw/core-example-advanced:build: [0m  Property 'children' does not exist on type 'IntrinsicAttributes & Partial<TLCallbacks<TLShape>> & { shapeUtils: { [x: string]: TLShapeUtil<any, any, any>; }; ... 25 more ...; onBoundsChange?: ((bounds: TLBounds) => void) | undefined; }'.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(206,13): error TS2345: Argument of type '{ series: {}[]; driver: string; }[]' is not assignable to parameter of type 'SetStateAction<listProps[]>'.
+[35m@tldraw/core-example-advanced:build: [0m  Type '{ series: {}[]; driver: string; }[]' is not assignable to type 'listProps[]'.
+[35m@tldraw/core-example-advanced:build: [0m    Type '{ series: {}[]; driver: string; }' is not assignable to type 'listProps'.
+[35m@tldraw/core-example-advanced:build: [0m      Types of property 'series' are incompatible.
+[35m@tldraw/core-example-advanced:build: [0m        Type '{}[]' is not assignable to type 'seriesProps[]'.
+[35m@tldraw/core-example-advanced:build: [0m          Type '{}' is missing the following properties from type 'seriesProps': point, driver, time, left, and 3 more.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(258,20): error TS2339: Property 'draggable' does not exist on type 'JQuery<HTMLElement>'.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(272,16): error TS2554: Expected 6 arguments, but got 5.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(294,19): error TS2532: Object is possibly 'undefined'.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(299,67): error TS2532: Object is possibly 'undefined'.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(311,26): error TS7006: Parameter 'type' implicitly has an 'any' type.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(311,32): error TS7006: Parameter 'item' implicitly has an 'any' type.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(311,38): error TS7006: Parameter 'target' implicitly has an 'any' type.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(311,46): error TS7006: Parameter 'lr' implicitly has an 'any' type.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(311,50): error TS7006: Parameter 'can' implicitly has an 'any' type.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(311,55): error TS7006: Parameter 'box' implicitly has an 'any' type.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(321,78): error TS2532: Object is possibly 'undefined'.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(324,43): error TS2532: Object is possibly 'undefined'.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(332,45): error TS2532: Object is possibly 'undefined'.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(333,45): error TS2532: Object is possibly 'undefined'.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(333,70): error TS2532: Object is possibly 'undefined'.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(335,43): error TS2532: Object is possibly 'undefined'.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(353,24): error TS2683: 'this' implicitly has type 'any' because it does not have a type annotation.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(354,42): error TS2683: 'this' implicitly has type 'any' because it does not have a type annotation.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(358,22): error TS2683: 'this' implicitly has type 'any' because it does not have a type annotation.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(552,39): error TS2339: Property 'label' does not exist on type 'seriesProps'.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(568,41): error TS2339: Property 'label' does not exist on type 'seriesProps'.
+[35m@tldraw/core-example-advanced:build: [0msrc/components/Gantt2/Gantt2.tsx(570,112): error TS2339: Property 'color' does not exist on type 'seriesProps'.
+[35m@tldraw/core-example-advanced:build: [0msrc/shapes/box/BoxComponent.tsx(21,7): error TS2304: Cannot find name 'machine'.
+[35m@tldraw/core-example-advanced:build: [0msrc/shapes/box/BoxComponent.tsx(27,17): error TS2339: Property 'label' does not exist on type 'BoxShape'.
+[35m@tldraw/core-example-advanced:build: [0msrc/shapes/box/BoxComponent.tsx(48,18): error TS2339: Property 'label' does not exist on type 'BoxShape'.
+[35m@tldraw/core-example-advanced:build: [0msrc/shapes/box/BoxComponent.tsx(62,18): error TS2339: Property 'label' does not exist on type 'BoxShape'.
+[35m@tldraw/core-example-advanced:build: [0msrc/shapes/box/BoxComponent.tsx(117,20): error TS2339: Property 'label' does not exist on type 'BoxShape'.
+[35m@tldraw/core-example-advanced:build: [0msrc/state/actions/shapes/createBoxShape.ts(14,3): error TS2322: Type 'string | null' is not assignable to type 'string'.
+[35m@tldraw/core-example-advanced:build: [0m  Type 'null' is not assignable to type 'string'.
+[35m@tldraw/core-example-advanced:build: [0msrc/state/actions/shapes/createBoxShape.ts(28,7): error TS2345: Argument of type '{ parentId: string; point: number[]; size: number[]; childIndex: number; color: string; label: string; }' is not assignable to parameter of type 'Partial<BoxShape>'.
+[35m@tldraw/core-example-advanced:build: [0m  Object literal may only specify known properties, and 'label' does not exist in type 'Partial<BoxShape>'.
+[35m@tldraw/core-example-advanced:build: [0msrc/state/constants.ts(20,7): error TS2322: Type '"point"' is not assignable to type '"arrow" | "box" | "pencil"'.
+[35m@tldraw/core-example-advanced:build: [0m../../packages/core/src/components/Bounds/Bounds.tsx(2,27): error TS2307: Cannot find module '~components/Container' or its corresponding type declarations.
+[35m@tldraw/core-example-advanced:build: [0m../../packages/core/src/components/Bounds/Bounds.tsx(3,30): error TS2307: Cannot find module '~components/SVGContainer' or its corresponding type declarations.
+[35m@tldraw/core-example-advanced:build: [0m../../packages/core/src/components/Bounds/Bounds.tsx(4,56): error TS2307: Cannot find module '~types' or its corresponding type declarations.
+[35m@tldraw/core-example-advanced:build: [0m../../packages/core/src/components/Bounds/CenterHandle.tsx(2,31): error TS2307: Cannot find module '~types' or its corresponding type declarations.
+[35m@tldraw/core-example-advanced:build: [0m../../packages/core/src/components/Bounds/CloneButton.tsx(2,30): error TS2307: Cannot find module '~hooks' or its corresponding type declarations.
+[35m@tldraw/core-example-advanced:build: [0m../../packages/core/src/components/Bounds/CloneButton.tsx(3,31): error TS2307: Cannot find module '~types' or its corresponding type declarations.
+[35m@tldraw/core-example-advanced:build: [0m../../packages/core/src/components/Bounds/CloneButtons.tsx(2,31): error TS2307: Cannot find module '~types' or its corresponding type declarations.
+[35m@tldraw/core-example-advanced:build: [0m../../packages/core/src/components/Bounds/CornerHandle.tsx(2,39): error TS2307: Cannot find module '~hooks' or its corresponding type declarations.
+[35m@tldraw/core-example-advanced:build: [0m../../packages/core/src/components/Bounds/CornerHandle.tsx(3,42): error TS2307: Cannot find module '~types' or its corresponding type declarations.
+[35m@tldraw/core-example-advanced:build: [0m../../packages/core/src/components/Bounds/EdgeHandle.tsx(2,39): error TS2307: Cannot find module '~hooks' or its corresponding type declarations.
+[35m@tldraw/core-example-advanced:build: [0m../../packages/core/src/components/Bounds/EdgeHandle.tsx(3,40): error TS2307: Cannot find module '~types' or its corresponding type declarations.
+[35m@tldraw/core-example-advanced:build: [0m../../packages/core/src/components/Bounds/LinkHandle.tsx(2,39): error TS2307: Cannot find module '~hooks' or its corresponding type declarations.
+[35m@tldraw/core-example-advanced:build: [0m../../packages/core/src/components/Bounds/LinkHandle.tsx(3,31): error TS2307: Cannot find module '~types' or its corresponding type declarations.
+[35m@tldraw/core-example-advanced:build: [0m../../packages/core/src/components/Bounds/RotateHandle.tsx(2,39): error TS2307: Cannot find module '~hooks' or its corresponding type declarations.
+[35m@tldraw/core-example-advanced:build: [0m../../packages/core/src/components/Bounds/RotateHandle.tsx(3,31): error TS2307: Cannot find module '~types' or its corresponding type declarations.
+[35m@tldraw/core-example-advanced:build: [0merror Command failed with exit code 2.
+[35m@tldraw/core-example-advanced:build: [0minfo Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

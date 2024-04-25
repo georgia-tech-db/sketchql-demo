@@ -1,16 +1,6 @@
-[35m@tldraw/tldraw:build[0m: cache hit, replaying output [2m080899e855767d77[0m
-[35m@tldraw/tldraw:build: [0m$ yarn lfg
-[35m@tldraw/tldraw:build: [0m$ /nethome/dshah371/video-query-interface/tldraw-v1/node_modules/.bin/lfg
-[35m@tldraw/tldraw:build: [0m(node:155621) UnhandledPromiseRejectionWarning: TypeError: import_fs2.default.rmSync is not a function
-[35m@tldraw/tldraw:build: [0m    at /nethome/dshah371/video-query-interface/tldraw-v1/node_modules/@tldraw/lfg/dist/cli.js:362:30
-[35m@tldraw/tldraw:build: [0m    at Generator.next (<anonymous>)
-[35m@tldraw/tldraw:build: [0m    at Promise (/nethome/dshah371/video-query-interface/tldraw-v1/node_modules/@tldraw/lfg/dist/cli.js:51:61)
-[35m@tldraw/tldraw:build: [0m    at new Promise (<anonymous>)
-[35m@tldraw/tldraw:build: [0m    at __async (/nethome/dshah371/video-query-interface/tldraw-v1/node_modules/@tldraw/lfg/dist/cli.js:35:10)
-[35m@tldraw/tldraw:build: [0m    at lfg (/nethome/dshah371/video-query-interface/tldraw-v1/node_modules/@tldraw/lfg/dist/cli.js:290:10)
-[35m@tldraw/tldraw:build: [0m    at Object.<anonymous> (/nethome/dshah371/video-query-interface/tldraw-v1/node_modules/@tldraw/lfg/dist/cli.js:402:1)
-[35m@tldraw/tldraw:build: [0m    at Module._compile (internal/modules/cjs/loader.js:778:30)
-[35m@tldraw/tldraw:build: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
-[35m@tldraw/tldraw:build: [0m    at Module.load (internal/modules/cjs/loader.js:653:32)
-[35m@tldraw/tldraw:build: [0m(node:155621) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
-[35m@tldraw/tldraw:build: [0m(node:155621) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[32m@tldraw/tldraw:build[0m: cache hit, replaying output [2m77fac5c55e7ffa75[0m
+[32m@tldraw/tldraw:build: [0m$ yarn lfg
+[32m@tldraw/tldraw:build: [0m$ /Users/dristishah/Documents/sketchql-interface/tldraw-v1/node_modules/.bin/lfg
+[32m@tldraw/tldraw:build: [0m‣ @tldraw/tldraw: Building packages.
+[32m@tldraw/tldraw:build: [0m• @tldraw/tldraw: Built cjs package. (1762.6kb / 123.6kb gzipped)
+[32m@tldraw/tldraw:build: [0m• @tldraw/tldraw: Built esm package. (1762.9kb / 123.6kb gzipped)

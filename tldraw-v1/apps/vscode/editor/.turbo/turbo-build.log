@@ -1,17 +1,1 @@
-[36m@tldraw/vscode-editor:build[0m: cache hit, replaying output [2m8299c19b8a019aca[0m
-[36m@tldraw/vscode-editor:build: [0m$ node scripts/build.mjs
-[36m@tldraw/vscode-editor:build: [0m/nethome/dshah371/video-query-interface/tldraw-v1/apps/vscode/editor/scripts/build.mjs:2
-[36m@tldraw/vscode-editor:build: [0mimport esbuild from 'esbuild'
-[36m@tldraw/vscode-editor:build: [0m       ^^^^^^^
-[36m@tldraw/vscode-editor:build: [0m
-[36m@tldraw/vscode-editor:build: [0mSyntaxError: Unexpected identifier
-[36m@tldraw/vscode-editor:build: [0m    at Module._compile (internal/modules/cjs/loader.js:723:23)
-[36m@tldraw/vscode-editor:build: [0m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
-[36m@tldraw/vscode-editor:build: [0m    at Module.load (internal/modules/cjs/loader.js:653:32)
-[36m@tldraw/vscode-editor:build: [0m    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
-[36m@tldraw/vscode-editor:build: [0m    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
-[36m@tldraw/vscode-editor:build: [0m    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
-[36m@tldraw/vscode-editor:build: [0m    at startup (internal/bootstrap/node.js:283:19)
-[36m@tldraw/vscode-editor:build: [0m    at bootstrapNodeJSCore (internal/bootstrap/node.js:623:3)
-[36m@tldraw/vscode-editor:build: [0merror Command failed with exit code 1.
-[36m@tldraw/vscode-editor:build: [0minfo Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+[34m@tldraw/vscode-editor:build[0m: cache hit, replaying output [2m95d0818cdb65bbfb[0m
