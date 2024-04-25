@@ -16,7 +16,7 @@ Download from https://www.dropbox.com/scl/fi/5jnqj57idzhpm68sjyfb8/model_cp.pt?r
 
 4. Run server\
 Run the script server.py\
-python3 server.py\
+python3 server.py
 
 ### Terminal window 2:
 
