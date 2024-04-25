@@ -2,8 +2,7 @@
 
 ## Description
 
-Sketch-QL is a video database management system for retrieving video moments with a sketch-based query interface.\
-This interface allows users to specify object trajectory events with simple mouse drag-and-drop operations.\
+Sketch-QL is a video database management system for retrieving video moments with a sketch-based query interface.This interface allows users to specify object trajectory events with simple mouse drag-and-drop operations.
 Using a pre-trained model that encodes trajectory similarity, Sketch-QL achieves zero-shot video moments retrieval by performing similarity searches over the video to identify clips that are the most similar to the visual query. 
 
 ## How to Run
