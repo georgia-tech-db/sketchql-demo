@@ -526,7 +526,7 @@ export default function App({ onMount }: AppProps) {
       console.log(`POINT MAPPING for shape with ID: ${id}, x: ${x}, y: ${y}`);
       // Create PlotPoint component and push to newPlotPoints array
       newPlotPoints.push(
-        <PlotPoint key={uuidv4()} style={{ top: y + shape.size[1], left: x - 4 * shape.size[0], background: color }} />
+        <PlotPoint key={uuidv4()} style={{ top: y, left: x - 4, background: color }} />
       );
     });
 
