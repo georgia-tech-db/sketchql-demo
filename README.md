@@ -51,6 +51,6 @@ yarn start:core\
 open localhost://5422 in your browser
 
 ## Video
-Video can be found in the video folder
+A video demonstrating how Sketch-QL works can be found in the video folder
 
 
