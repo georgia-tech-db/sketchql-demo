@@ -23,6 +23,10 @@ python3 server.py
 
 ### Terminal window 2:
 
+1. install yarn\
+npm install -g yarn
+
+2. Run code\
 cd tldraw-v1\
 yarn install\
 yarn start:core\
