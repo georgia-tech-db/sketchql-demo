@@ -39,7 +39,7 @@ npm install -g yarn
 2. Clone tldraw-v1\
 https://github.com/tldraw/tldraw-v1.git
 
-3. Replace tldraw-1 core-example-advanced folder with the folder from this github repo\
+3. Replace tldraw-1 core-example-advanced folder with the folder core-example-advanced folder from this github repo
    
 4. Run code on new tldraw-v1 foler\
 cd tldraw-v1\
